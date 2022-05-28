@@ -1,0 +1,16 @@
+{
+  "name": "gfw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":  "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.17.0"
+  }
+}
